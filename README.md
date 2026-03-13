@@ -107,6 +107,56 @@ The homepage is the first thing visitors see. It is organized into the following
 
 ### 3.2 Scheduling an Appointment
 
+#### Step 1 — Fill in your details
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/client-booking/booking-form-step1.png" alt="Client Appointment Booking Form" />
+    <div class="slabel" style="--sl:13%"><span>Full Name<em>your legal name</em></span></div>
+    <div class="slabel" style="--sl:27%"><span>Email Address<em>confirmation sent here</em></span></div>
+    <div class="slabel" style="--sl:41%"><span>Phone Number<em>10-digit number</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Service Category<em>choose from dropdown</em></span></div>
+    <div class="slabel" style="--sl:69%"><span>Meeting Preference<em>In-Person / Virtual / Phone</em></span></div>
+    <div class="slabel" style="--sl:84%"><span>Message<em>optional — extra notes</em></span></div>
+  </div>
+  <figcaption>Fig 3.1 — Step 1: fill in your name, contact details, service category and meeting preference</figcaption>
+</figure>
+
+#### Step 2 — Select a date
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/client-booking/calender-picker.png" alt="Calendar Date Picker" />
+    <div class="slabel" style="--sl:30%"><span>Available date<em>click to select</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Blocked / unavailable<em>cannot be booked</em></span></div>
+    <div class="slabel" style="--sl:83%"><span>Your Timezone<em>confirm or change if needed</em></span></div>
+  </div>
+  <figcaption>Fig 3.2 — Step 2: pick an available date from the calendar</figcaption>
+</figure>
+
+#### Step 3 — Choose a time slot
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/client-booking/time-slots.png" alt="Available Time Slots" />
+    <div class="slabel" style="--sl:25%"><span>Available slot<em>click to pick</em></span></div>
+    <div class="slabel" style="--sl:50%"><span>Already booked<em>cannot select</em></span></div>
+    <div class="slabel" style="--sl:75%"><span>Your selected slot<em>will be confirmed</em></span></div>
+  </div>
+  <figcaption>Fig 3.3 — Step 3: select an available time slot for your appointment</figcaption>
+</figure>
+
+#### Step 4 — Review and confirm
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/client-booking/booking-confirmation.png" alt="Booking Confirmation Screen" />
+    <div class="slabel" style="--sl:35%"><span>Booking summary<em>review your details</em></span></div>
+    <div class="slabel" style="--sl:78%"><span>Book Appointment<em>click to confirm &amp; submit</em></span></div>
+  </div>
+  <figcaption>Fig 3.4 — Step 4: review your booking summary then click Book Appointment to submit</figcaption>
+</figure>
+
 Clients can book a consultation directly from the website.
 
 **How to book:**
@@ -115,18 +165,12 @@ Clients can book a consultation directly from the website.
 2. Fill in the required fields:
    - **Full Name** – Your legal name.
    - **Email Address** – Where your confirmation will be sent.
-   - **Phone Number** – 10-digit number (formatting like dashes/parentheses is accepted).
-   - **Service Category** – Select the type of consultation:
-     - Real Estate Consultation
-     - Mortgage Services
-     - Home Improvement
-     - Tax and Accounting
-     - Other
-   - **Meeting Preference** – Choose how you would like to meet (e.g., In-Person, Virtual/Online, Phone Call). Available preferences depend on the selected category.
+   - **Phone Number** – 10-digit number (dashes/parentheses accepted).
+   - **Service Category** – Select the type of consultation (Real Estate, Mortgage, Home Improvement, Tax & Accounting, or Other).
+   - **Meeting Preference** – How you'd like to meet (In-Person, Virtual, Phone Call). Options depend on the selected category.
    - **Date** – Pick from the calendar. Only available (non-blocked) dates are selectable.
-   - **Time Slot** – Available time slots are shown based on the date, category, and preference. Already-booked slots are grayed out.
-   - **Your Timezone** – The system detects it automatically but you can change it. All times are stored and confirmed in the **business timezone** (Eastern Time).
-   - **Message** *(optional)* – Any additional notes or context for your appointment.
+   - **Time Slot** – Available times appear once a date, category, and preference are selected.
+   - **Message** *(optional)* – Any additional notes for your appointment.
 
 3. Click **Book Appointment**.
 
@@ -140,6 +184,14 @@ Clients can book a consultation directly from the website.
 ---
 
 ### 3.3 Property Inquiry Form
+
+<figure class="screenshot">
+  <div class="img-wrap">
+    <img src="assets/screenshots/property-inquiry/property-inquiry-form.png" alt="Property Inquiry Form" />
+    
+  </div>
+  <figcaption>Fig 3.5 — Property inquiry form with contact details, preferences, and property requirements</figcaption>
+</figure>
 
 For clients interested in buying, selling, or renting property.
 
@@ -190,6 +242,14 @@ This is a multi-section form:
 
 ### 3.5 Home Improvement Quote
 
+<figure class="screenshot">
+  <div class="img-wrap">
+    <img src="assets/screenshots/home-improvement-quote/home-improvement-quote.png" alt="Home Improvement Quote Form" />
+    
+  </div>
+  <figcaption>Fig 3.6 — Home improvement quote form with project details and contact information</figcaption>
+</figure>
+
 For clients needing renovation or home repair services.
 
 **Navigate to:** `/home-improvement-quote`
@@ -213,6 +273,18 @@ For general inquiries not covered by other forms.
 
 **Navigate to:** `/contact`
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/contacts/conatct-add-form.png" alt="Contact Us Form" />
+    <div class="slabel" style="--sl:15%"><span>Full Name<em>your legal name</em></span></div>
+    <div class="slabel" style="--sl:30%"><span>Email Address<em>where the reply is sent</em></span></div>
+    <div class="slabel" style="--sl:45%"><span>Phone Number<em>10-digit number</em></span></div>
+    <div class="slabel" style="--sl:60%"><span>Subject<em>brief reason for contact</em></span></div>
+    <div class="slabel" style="--sl:78%"><span>Message<em>your full inquiry</em></span></div>
+  </div>
+  <figcaption>Fig 3.6 — Contact us form: fill in all fields and complete the CAPTCHA before submitting</figcaption>
+</figure>
+
 **Required fields:**
 - Full Name
 - Email Address
@@ -228,6 +300,17 @@ For general inquiries not covered by other forms.
 
 **Navigate to:** `/job-listings`
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/jobs/job-listings.png" alt="Job Listings Page" />
+    <div class="slabel" style="--sl:20%"><span>Job Title<em>position being offered</em></span></div>
+    <div class="slabel" style="--sl:38%"><span>Location &amp; Type<em>on-site / remote / hybrid</em></span></div>
+    <div class="slabel" style="--sl:56%"><span>Salary Range<em>compensation details</em></span></div>
+    <div class="slabel" style="--sl:75%"><span>View Details<em>click to read full listing</em></span></div>
+  </div>
+  <figcaption>Fig 3.7 — Job listings page showing all open positions at BS Realty</figcaption>
+</figure>
+
 The Jobs page displays all currently open positions at BS Realty. Each listing shows:
 - Job Title
 - Location
@@ -235,10 +318,34 @@ The Jobs page displays all currently open positions at BS Realty. Each listing s
 - Salary/Compensation Range
 - Requirements & Qualifications
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/jobs/job-descriptions.png" alt="Job Description Page" />
+    <div class="slabel" style="--sl:15%"><span>Job Title &amp; Details<em>role, type, location</em></span></div>
+    <div class="slabel" style="--sl:35%"><span>Requirements<em>qualifications needed</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Responsibilities<em>what the role involves</em></span></div>
+    <div class="slabel" style="--sl:78%"><span>Apply Now<em>click to open application form</em></span></div>
+  </div>
+  <figcaption>Fig 3.8 — Job detail page: review the full description, then click Apply Now</figcaption>
+</figure>
+
 **To apply:**
 1. Click on a job listing to view full details at `/job-details/[job-slug]`.
 2. Click **Apply Now** to open the application form.
 3. Complete all sections:
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/jobs/job-application-form.png" alt="Job Application Form" />
+    <div class="slabel" style="--sl:12%"><span>Contact Info<em>name, email, phone</em></span></div>
+    <div class="slabel" style="--sl:26%"><span>Work Preferences<em>schedule &amp; work style</em></span></div>
+    <div class="slabel" style="--sl:40%"><span>Experience<em>skills &amp; years of experience</em></span></div>
+    <div class="slabel" style="--sl:54%"><span>Compensation<em>expected salary range</em></span></div>
+    <div class="slabel" style="--sl:66%"><span>Portfolio &amp; Motivation<em>links, certifications, why BS Realty</em></span></div>
+    <div class="slabel" style="--sl:80%"><span>Resume Upload<em>PDF / DOC / DOCX — 5MB max</em></span></div>
+  </div>
+  <figcaption>Fig 3.9 — Job application form: fill in all sections and upload your resume before submitting</figcaption>
+</figure>
 
 | Section | Fields |
 |---------|--------|
@@ -263,7 +370,29 @@ For real estate professionals who want to join the BS Realty team.
 
 **Navigate to:** `/become-agent`
 
-**The form collects:**
+The application is split into **4 steps** — the progress bar at the top of the form shows where you are at all times.
+
+| Step | Section |
+|------|---------|
+| 1 | Personal Info |
+| 2 | Professional Background |
+| 3 | Questionnaire |
+| 4 | Documents |
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/become-an-agent/become-an-agent.png" alt="Become an Agent — Step 1 Personal Info" />
+    <div class="slabel" style="--sl:33%"><span>Step progress bar<em>tracks which of the 4 steps you're on</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Full Name &amp; Email<em>required — personal contact details</em></span></div>
+    <div class="slabel" style="--sl:72%"><span>Phone Number<em>required — 10-digit number</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>Next →<em>saves Step 1 and moves to Step 2</em></span></div>
+  </div>
+  <figcaption>Fig 3.10 — Step 1 of 4: Personal Info. Fill in your name, email, and phone, then click Next to continue.</figcaption>
+</figure>
+
+> **Tip:** You must complete all 4 steps before submitting. Use the **Next** button to advance and the **Back** button to review previous steps.
+
+**All fields collected across the 4 steps:**
 
 | Field | Details |
 |-------|---------|
@@ -286,6 +415,20 @@ For real estate professionals who want to join the BS Realty team.
 
 ### 4.1 Logging In
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/admin-login/login-form-filled.png" alt="BS Realty LLC Login Page" />
+    <div class="slabel" style="--sl:36%"><span>Email Address<em>your registered admin email</em></span></div>
+    <div class="slabel" style="--sl:50%"><span>Password<em>your SSO account password</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Sign In<em>click to log in</em></span></div>
+    <div class="slabel" style="--sl:76%"><span>Continue with Google<em>SSO via Google account</em></span></div>
+    <div class="slabel" style="--sl:87%"><span>Continue with Facebook<em>SSO via Facebook account</em></span></div>
+  </div>
+  <figcaption>Fig 4.1 — Admin login page: enter your credentials and click Sign In, or use Google / Facebook SSO</figcaption>
+</figure>
+
+**How to log in:**
+
 1. Go to `/login`.
 2. Enter your **email address** and **password** linked to your SSO account.
 3. If 2FA is enabled, complete the verification step.
@@ -297,7 +440,19 @@ For real estate professionals who want to join the BS Realty team.
 
 ### 4.2 Dashboard Layout & Navigation
 
-The dashboard uses a consistent layout:
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/admin-login/dashboard-first-view.png" alt="Admin Dashboard Layout" />
+    <div class="slabel" style="--sl:5%"><span>Top Header<em>notifications &amp; user profile menu</em></span></div>
+    <div class="slabel" style="--sl:24%"><span>Sidebar Navigation<em>links to all admin modules</em></span></div>
+    <div class="slabel" style="--sl:44%"><span>Stats Cards<em>live metric summaries at a glance</em></span></div>
+    <div class="slabel" style="--sl:65%"><span>Service Requests<em>property, insurance &amp; home improvement counts</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>Quick Actions<em>shortcuts to common tasks</em></span></div>
+  </div>
+  <figcaption>Fig 4.2 — Dashboard layout showing sidebar navigation and main content area</figcaption>
+</figure>
+
+The dashboard uses a consistent layout with three main areas:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -346,6 +501,16 @@ The dashboard uses a consistent layout:
 
 The **bell icon (🔔)** in the top-right corner shows real-time alerts for new incoming activity.
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/notifications/notifications.png" alt="Notifications Panel" />
+    <div class="slabel" style="--sl:10%"><span>Bell Icon<em>click to open the notifications dropdown</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Notification Item<em>type icon, title, snippet &amp; time ago</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>View All Link<em>opens the full notifications page</em></span></div>
+  </div>
+  <figcaption>Fig 4.3 — Notifications dropdown showing recent activity and alerts</figcaption>
+</figure>
+
 - A **red badge** with a number indicates how many unread notifications you have. If there are more than 9, it shows **9+**.
 - Click the bell to open the **Notifications Dropdown**, which shows the most recent notifications with:
   - An icon for the notification type
@@ -354,23 +519,34 @@ The **bell icon (🔔)** in the top-right corner shows real-time alerts for new 
 
 **Notification Types:**
 
-| Icon Color | Type |
-|-----------|------|
-| 🔵 Blue | New Contact Submission |
-| 🟣 Indigo | New Appointment Booked |
-| 🟢 Green | Property Inquiry |
-| 🟡 Yellow | Insurance Quote |
-| 🟣 Purple | Job Application |
-| 🟠 Orange | Agent Application |
-| 🔴 Rose | Home Improvement Quote |
-| 🩵 Teal | Client Registration |
-| 🟡 Amber | Agent Registration |
-| ⬜ Gray | Survey Submitted |
+| Type |
+|------|
+| New Contact Submission |
+| New Appointment Booked |
+| Property Inquiry |
+| Insurance Quote |
+| Job Application |
+| Agent Application |
+| Home Improvement Quote |
+| Client Registration |
+| Agent Registration |
+| Survey Submitted |
 
 **Clicking a notification:**
 - Navigates you directly to the relevant section/record.
 - Automatically marks the item's status as "pending" (acknowledging you have seen it).
 - Removes the notification from the unread count.
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/appointment-status.png" alt="Appointment Status Update" />
+    <div class="slabel" style="--sl:7%"><span>Success Toast<em>confirms the status was auto-updated</em></span></div>
+    <div class="slabel" style="--sl:35%"><span>Appointments Table<em>lists all bookings with sortable columns</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Pending Badge<em>status set automatically on notification click</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>Action Buttons<em>view details or cancel the appointment</em></span></div>
+  </div>
+  <figcaption>Fig 4.4 — Appointment status automatically updated to "pending" when accessed via notification</figcaption>
+</figure>
 
 Click **"View all notifications →"** at the bottom of the dropdown to see the full Notifications page.
 
@@ -384,6 +560,16 @@ Click your **name/avatar** in the top-right corner. The dropdown shows:
 - Links to **Profile** and **Settings**
 - **Sign Out** button
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/user-profile/user-profile.png" alt="User Profile Menu" />
+    <div class="slabel" style="--sl:8%"><span>Profile Button<em>click your name / avatar to open the menu</em></span></div>
+    <div class="slabel" style="--sl:50%"><span>Name, Email &amp; Role<em>your display name, email and role badge</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>Profile, Settings &amp; Sign Out<em>account links and end session</em></span></div>
+  </div>
+  <figcaption>Fig 4.5 — User profile menu showing account details and navigation options</figcaption>
+</figure>
+
 ---
 
 ## 5. Dashboard Overview Page
@@ -391,6 +577,17 @@ Click your **name/avatar** in the top-right corner. The dropdown shows:
 **Navigate to:** `/dashboard`
 
 This is the first page you see after logging in. It provides a bird's-eye view of the system.
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/admin-login/dashboard-first-view.png" alt="Dashboard Overview Page" />
+    <div class="slabel" style="--sl:8%"><span>Page Title<em>confirms you're on the Dashboard Overview</em></span></div>
+    <div class="slabel" style="--sl:38%"><span>Stat Cards<em>live counts for clients, contacts, appointments &amp; agents</em></span></div>
+    <div class="slabel" style="--sl:65%"><span>Service Requests<em>quick counts for property, insurance &amp; home improvement</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>Quick Actions<em>shortcuts to navigate directly to key modules</em></span></div>
+  </div>
+  <figcaption>Fig 5.1 — Dashboard Overview showing stat cards, service request counts and quick actions</figcaption>
+</figure>
 
 ### Key Metrics (Stat Cards)
 
@@ -425,11 +622,36 @@ A sidebar panel with shortcut buttons to navigate directly to:
 
 ## 6. Managing Contacts
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/contacts/contact-list.png" alt="Contacts Management List" />
+    <div class="slabel" style="--sl:12%"><span>Page Header<em>section title and Export CSV button</em></span></div>
+    <div class="slabel" style="--sl:27%"><span>Search &amp; Filters<em>find contacts by keyword or filter by status</em></span></div>
+    <div class="slabel" style="--sl:43%"><span>Table Headers<em>sortable columns — name, email, phone, subject, status, date</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Status Badges<em>completed (green) or pending (yellow)</em></span></div>
+    <div class="slabel" style="--sl:87%"><span>Action Buttons<em>view details or disable a contact</em></span></div>
+  </div>
+  <figcaption>Fig 6.1 — Contacts management interface showing search, filters, and action controls</figcaption>
+</figure>
+
 **Navigate to:** `/dashboard/contacts`
 
 This page lists all general contact form submissions received from the website's **Contact Us** page.
 
 ### Viewing Contacts
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/contacts/contact-detail-view.png" alt="Contact Details View" />
+    <div class="slabel" style="--sl:8%"><span>Modal Header<em>title, submission date, current status badge &amp; close</em></span></div>
+    <div class="slabel" style="--sl:28%"><span>Contact Information<em>name, phone number and email address</em></span></div>
+    <div class="slabel" style="--sl:52%"><span>Subject<em>topic of the contact submission</em></span></div>
+    <div class="slabel" style="--sl:70%"><span>Message<em>full text of the contact inquiry</em></span></div>
+    <div class="slabel" style="--sl:90%"><span>Update Status<em>set to Pending, Responded or Closed</em></span></div>
+  </div>
+  <figcaption>Fig 6.2 — Contact detail view showing full information and status management</figcaption>
+</figure>
+
 - Submissions are displayed in a data table with columns: **Name, Email, Phone, Subject, Status, Date, Actions**.
 - Click the **eye icon (👁)** in the Actions column to open a full detail view of the contact.
 
@@ -460,6 +682,18 @@ The Appointments page is the most feature-rich operational section in the dashbo
 
 ### 7.1 Appointment List & Filtering
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/appointment-list-overview.png" alt="Appointments Management Table" />
+    <div class="slabel" style="--sl:12%"><span>Page Header<em>section title and Export CSV button</em></span></div>
+    <div class="slabel" style="--sl:27%"><span>Search &amp; Filters<em>search by name or filter by status, category &amp; date</em></span></div>
+    <div class="slabel" style="--sl:43%"><span>Table Headers<em>sortable columns — client, contact, date &amp; time, category, status</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Status Badges<em>cancelled (red) or pending (yellow) — color-coded per state</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Action Buttons<em>view details or disable the appointment</em></span></div>
+  </div>
+  <figcaption>Fig 7.1 — Appointments management interface with filters and action controls</figcaption>
+</figure>
+
 The table shows all appointments with columns:
 - **Client** – Client name and meeting preference type (sub-label)
 - **Contact** – Email and formatted phone number
@@ -478,6 +712,18 @@ Use **Clear Filters** to reset all filters at once.
 ---
 
 ### 7.2 Viewing Appointment Details
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/appointment-detail-modal.png" alt="Appointment Details Modal" />
+    <div class="slabel" style="--sl:9%"><span>Modal Header<em>appointment title, booking date, status badge &amp; close</em></span></div>
+    <div class="slabel" style="--sl:26%"><span>Client Information<em>name, phone number and email address</em></span></div>
+    <div class="slabel" style="--sl:46%"><span>Service Details<em>category and meeting type (In-Person / Virtual / Hybrid)</em></span></div>
+    <div class="slabel" style="--sl:65%"><span>Schedule<em>business time (EDT) alongside customer local time</em></span></div>
+    <div class="slabel" style="--sl:91%"><span>Update Status<em>confirm, complete or cancel the appointment</em></span></div>
+  </div>
+  <figcaption>Fig 7.2 — Appointment details modal showing client info, schedule, and action controls</figcaption>
+</figure>
 
 Click the **eye icon (👁)** on any appointment row to open the **Appointment Details Modal**.
 
@@ -499,8 +745,19 @@ The modal displays:
 
 | Card | Shows |
 |------|-------|
-| 🔵 Business Time | Appointment time in the company's configured timezone (e.g., Eastern Time) |
-| 🟢 Customer Time | Same appointment time converted to the client's timezone at booking |
+| Business Time | Appointment time in the company's configured timezone (e.g., Eastern Time) |
+| Customer Time | Same appointment time converted to the client's timezone at booking |
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/appointment-time.png" alt="Appointment Dual Timezone Display" />
+    <div class="slabel" style="--sl:5%"><span>Modal Header<em>appointment title, booking date and current status</em></span></div>
+    <div class="slabel" style="--sl:38%"><span>Service Details<em>category (Home Improvement) and meeting type (In-Person)</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Business Time<em>appointment time in the admin's configured timezone — America/New_York (EDT)</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Customer Time<em>same appointment auto-converted to the client's local timezone — Asia/Kathmandu (GMT+5:45)</em></span></div>
+  </div>
+  <figcaption>Fig 7.2a — Schedule showing Business Time (EDT) alongside Customer Time (Kathmandu GMT+5:45)</figcaption>
+</figure>
 
 **Message:** The client's optional note is displayed here.
 
@@ -512,6 +769,18 @@ The modal displays:
 ---
 
 ### 7.3 Updating Appointment Status
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/appointment-actions.png" alt="Appointment Status Update Controls" />
+    <div class="slabel" style="--sl:10%"><span>Page Header<em>section title and Export CSV button</em></span></div>
+    <div class="slabel" style="--sl:25%"><span>Active Filter Badge<em>blue "1" indicates a filter is currently applied</em></span></div>
+    <div class="slabel" style="--sl:42%"><span>Filter Panel<em>narrow by status (Pending) and category with Clear All</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Filtered Result<em>appointment row matching the active status filter</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Result Count<em>shows how many appointments match the current filter</em></span></div>
+  </div>
+  <figcaption>Fig 7.3 — Status update buttons: 1) Pending 2) Confirm 3) Complete 4) Cancel</figcaption>
+</figure>
 
 From the Appointment Details modal footer, use the action buttons to update status:
 
@@ -534,11 +803,34 @@ Cancelling an appointment is a two-step process:
 2. The **Cancel Appointment** modal opens. You must provide a **cancellation reason** (minimum 10 characters).
 3. Click **Cancel Appointment** to confirm.
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/cancel-appointment.png" alt="Cancel Appointment Modal" />
+    <div class="slabel" style="--sl:9%"><span>Modal Header<em>title and notification reminder — email &amp; SMS will be sent</em></span></div>
+    <div class="slabel" style="--sl:28%"><span>Warning Banner<em>explains what will happen when cancellation is confirmed</em></span></div>
+    <div class="slabel" style="--sl:52%"><span>Cancellation Reason<em>required field — minimum 10 characters</em></span></div>
+    <div class="slabel" style="--sl:72%"><span>Character Counter<em>tracks input length against the 500-character limit</em></span></div>
+    <div class="slabel" style="--sl:91%"><span>Action Buttons<em>Go Back to return, or Cancel Appointment to confirm</em></span></div>
+  </div>
+  <figcaption>Fig 7.4 — Cancel Appointment modal requiring a reason before confirming cancellation</figcaption>
+</figure>
+
 **What happens automatically:**
 - The appointment status is set to `cancelled`.
 - The client receives an **email and SMS** with:
   - Your cancellation reason/explanation.
   - A personalized **reschedule link** so they can book a new time slot.
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/email-notification-cancel.png" alt="Cancellation Email Notification" />
+    <div class="slabel" style="--sl:10%"><span>Email Header<em>red banner confirming the appointment is cancelled</em></span></div>
+    <div class="slabel" style="--sl:32%"><span>Greeting &amp; Message<em>personalised notice sent directly to the client</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Appointment Details<em>service, date, time and meeting type of the cancelled booking</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>Reschedule Section<em>link for the client to book a new time slot</em></span></div>
+  </div>
+  <figcaption>Fig 7.5 — Cancellation email sent to the client with appointment details and reschedule link</figcaption>
+</figure>
 
 This ensures a professional and transparent experience for the client.
 
@@ -567,12 +859,56 @@ When a client follows the reschedule link sent via cancellation email, a **new a
 - Shows a **"Rescheduled" badge** (indigo) on the new appointment in the table.
 - Displays "View original" and "View new" buttons in the respective modals so you can traverse the history easily.
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/reschedule.png" alt="Reschedule Appointment Page" />
+    <div class="slabel" style="--sl:10%"><span>Page Title<em>reschedule page opened from the cancellation email link</em></span></div>
+    <div class="slabel" style="--sl:35%"><span>Cancellation Notice<em>yellow banner showing the reason for cancellation</em></span></div>
+    <div class="slabel" style="--sl:57%"><span>Timezone Notice<em>confirms times are shown in the client's local timezone</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>Your Information &amp; Appointment Details<em>pre-filled client info, category and meeting type</em></span></div>
+  </div>
+  <figcaption>Fig 7.6 — Reschedule page: cancellation notice and pre-filled client details</figcaption>
+</figure>
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/reschedule1.png" alt="Reschedule Date and Time Selection" />
+    <div class="slabel" style="--sl:10%"><span>Appointment Details<em>category and meeting type carried over from original booking</em></span></div>
+    <div class="slabel" style="--sl:30%"><span>Preferred Date<em>date picker to select a new appointment date</em></span></div>
+    <div class="slabel" style="--sl:52%"><span>Preferred Time<em>available slots shown in the client's local timezone</em></span></div>
+    <div class="slabel" style="--sl:70%"><span>Message<em>optional note to include with the new booking</em></span></div>
+    <div class="slabel" style="--sl:90%"><span>Submit Button<em>click to confirm and create the rescheduled appointment</em></span></div>
+  </div>
+  <figcaption>Fig 7.7 — Reschedule form: select a new date, time slot and optional message</figcaption>
+</figure>
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/reschedule-complete.png" alt="Reschedule Complete Confirmation" />
+    <div class="slabel" style="--sl:18%"><span>Page Title<em>confirms the client is on the reschedule page</em></span></div>
+    <div class="slabel" style="--sl:52%"><span>Success Confirmation<em>green checkmark and "Appointment Rescheduled!" message</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Back to Home<em>returns the client to the main website</em></span></div>
+  </div>
+  <figcaption>Fig 7.8 — Reschedule complete: confirmation screen shown after successful rebooking</figcaption>
+</figure>
+
 ---
 
 ### 7.7 Exporting Appointments to CSV
 
 Click **Export CSV** in the top-right of the Appointments page. The export includes all currently filtered appointments with these fields:
 - ID, Name, Email, Phone, Appointment Date, Time, Category, Preference, Message, Status, Created At, Updated At.
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/appointments/export_csv.png" alt="Export CSV Button" />
+    <div class="slabel" style="--sl:10%"><span>Export CSV Button<em>downloads all currently filtered appointments as a spreadsheet</em></span></div>
+    <div class="slabel" style="--sl:35%"><span>Search &amp; Filters<em>apply filters before exporting to narrow the dataset</em></span></div>
+    <div class="slabel" style="--sl:58%"><span>Rescheduled Badge<em>indigo badge marks appointments rebooked after a cancellation</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Appointment Rows<em>every visible row is included in the exported CSV file</em></span></div>
+  </div>
+  <figcaption>Fig 7.9 — Appointments list with Export CSV — filters applied before export narrow the output</figcaption>
+</figure>
 
 ---
 
@@ -581,6 +917,16 @@ Click **Export CSV** in the top-right of the Appointments page. The export inclu
 **Navigate to:** `/dashboard/property-inquiries`
 
 Lists all property inquiry form submissions.
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/property-inquiry/propery-inquiry-admin.png" alt="Property Inquiries Admin List" />
+    <div class="slabel" style="--sl:8%"><span>Page Header<em>section title and Export CSV button</em></span></div>
+    <div class="slabel" style="--sl:48%"><span>Inquiry Row<em>client details with purchase type, budget range and status badge</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Action Buttons<em>view full inquiry details or disable the record</em></span></div>
+  </div>
+  <figcaption>Fig 8.1 — Property Inquiries admin list showing submissions, status badges and action controls</figcaption>
+</figure>
 
 **Column overview:**
 - Name, Phone, Email
@@ -626,6 +972,16 @@ Lists all insurance quote requests.
 
 Lists all home improvement quote requests.
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/home-improvement-quote/home-improvement-admin.png" alt="Home Improvement Quotes Admin List" />
+    <div class="slabel" style="--sl:8%"><span>Page Header<em>section title and Export CSV button</em></span></div>
+    <div class="slabel" style="--sl:48%"><span>Quote Row<em>customer name, property type, timeline and status badge</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Action Buttons<em>view full quote details or disable the record</em></span></div>
+  </div>
+  <figcaption>Fig 10.1 — Home Improvement Quotes admin list showing submissions, status badges and action controls</figcaption>
+</figure>
+
 **Data shown:**
 - Customer name, email, phone
 - Type of help needed
@@ -650,6 +1006,16 @@ Lists all home improvement quote requests.
 
 Lists applications submitted for posted job positions.
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/jobs/job-view-table.png" alt="Job Applications List" />
+    <div class="slabel" style="--sl:8%"><span>Page Header<em>section title and Export CSV button</em></span></div>
+    <div class="slabel" style="--sl:48%"><span>Application Rows<em>applicant name, position, status badge, experience and applied date</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Action Buttons<em>view details, download resume or disable the application</em></span></div>
+  </div>
+  <figcaption>Fig 11.1 — Job Applications list showing all submissions with status badges and action controls</figcaption>
+</figure>
+
 **Data shown:**
 - Applicant name, email, phone
 - Position applied for
@@ -666,6 +1032,30 @@ Lists applications submitted for posted job positions.
 - Why they want to work at BS Realty
 - Resume download link (original filename preserved)
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/jobs/job-view-admin.png" alt="Job Application Details Modal — Part 1" />
+    <div class="slabel" style="--sl:7%"><span>Modal Header<em>title, submission date, current status badge &amp; close</em></span></div>
+    <div class="slabel" style="--sl:28%"><span>Contact Information<em>applicant name, phone and email</em></span></div>
+    <div class="slabel" style="--sl:52%"><span>Position &amp; Experience<em>role applied for, years of experience, compensation &amp; timezone</em></span></div>
+    <div class="slabel" style="--sl:75%"><span>Work Preferences<em>work arrangement, setting (Hybrid) and availability</em></span></div>
+    <div class="slabel" style="--sl:93%"><span>Update Status<em>mark as Reviewed, Accepted or Rejected</em></span></div>
+  </div>
+  <figcaption>Fig 11.2 — Job Application detail modal: contact info, position, experience and work preferences</figcaption>
+</figure>
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/jobs/job-view-admin1.png" alt="Job Application Details Modal — Part 2" />
+    <div class="slabel" style="--sl:8%"><span>Work Preferences<em>arrangement, setting and availability carried from Part 1</em></span></div>
+    <div class="slabel" style="--sl:32%"><span>Skills &amp; Technologies<em>technical skills and programming languages listed</em></span></div>
+    <div class="slabel" style="--sl:57%"><span>Certifications &amp; Portfolio<em>certifications, portfolio links and resume download</em></span></div>
+    <div class="slabel" style="--sl:78%"><span>Why Work Here?<em>applicant's motivation for joining BS Realty</em></span></div>
+    <div class="slabel" style="--sl:95%"><span>Update Status<em>mark as Reviewed, Accepted or Rejected</em></span></div>
+  </div>
+  <figcaption>Fig 11.3 — Job Application detail modal: skills, certifications, portfolio and status controls</figcaption>
+</figure>
+
 **Status lifecycle:** `new` → `pending` → `reviewed` → `accepted` | `rejected`
 
 **Actions:**
@@ -680,6 +1070,16 @@ Lists applications submitted for posted job positions.
 **Navigate to:** `/dashboard/agent-applications`
 
 Lists all applicants who want to join BS Realty as agents.
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/become-an-agent/agent-application-table.png" alt="Agent Applications List" />
+    <div class="slabel" style="--sl:8%"><span>Page Header<em>section title and Export CSV button</em></span></div>
+    <div class="slabel" style="--sl:48%"><span>Application Rows<em>applicant name, license status, experience and status badge</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Action Buttons<em>view details, download documents or disable the application</em></span></div>
+  </div>
+  <figcaption>Fig 12.1 — Agent Applications list showing submissions, license status and action controls</figcaption>
+</figure>
 
 **Data shown:**
 - Applicant name, email, phone
@@ -698,6 +1098,18 @@ Lists all applicants who want to join BS Realty as agents.
 - Resume, license document, and ID card download links
 
 **Status lifecycle:** `new` → `pending` → `reviewed` → `accepted` | `rejected`
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/become-an-agent/agent-application-view.png" alt="Agent Application Detail Modal" />
+    <div class="slabel" style="--sl:6%"><span>Modal Header<em>title, application date, current status badge &amp; close</em></span></div>
+    <div class="slabel" style="--sl:27%"><span>Professional Background<em>license status, number, states, experience &amp; current brokerage</em></span></div>
+    <div class="slabel" style="--sl:52%"><span>Questionnaire<em>availability, work eligibility and how they heard about BS Realty</em></span></div>
+    <div class="slabel" style="--sl:73%"><span>Documents<em>resume and license documents available to download</em></span></div>
+    <div class="slabel" style="--sl:92%"><span>Update Status<em>mark as Reviewed, Accept or Reject the applicant</em></span></div>
+  </div>
+  <figcaption>Fig 12.2 — Agent Application detail modal showing professional background, questionnaire and documents</figcaption>
+</figure>
 
 **Actions:**
 - Update status to accept or reject candidates
@@ -742,6 +1154,36 @@ Provides an overview of all registered users in the system.
 
 Provides data insights on system activity and form submission trends.
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/analytics/analytics1.png" alt="Website Analytics Overview" />
+    <div class="slabel" style="--sl:10%"><span>Page Header &amp; Date Filter<em>title, date range picker and page filter dropdown</em></span></div>
+    <div class="slabel" style="--sl:28%"><span>Real-Time Banner<em>shows active visitors on the site right now</em></span></div>
+    <div class="slabel" style="--sl:52%"><span>Stat Cards<em>page views, unique visitors, sessions, avg. session, engagement &amp; bounce rate</em></span></div>
+    <div class="slabel" style="--sl:82%"><span>Page Views Trend<em>chart showing traffic volume over the selected date range</em></span></div>
+  </div>
+  <figcaption>Fig 14.1 — Website Analytics overview: real-time visitors, key metrics and page views trend</figcaption>
+</figure>
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/analytics/analytics2.png" alt="Top Pages and Traffic Sources" />
+    <div class="slabel" style="--sl:8%"><span>Top Pages Table<em>ranked URLs with views, visitors, avg. time and scroll depth</em></span></div>
+    <div class="slabel" style="--sl:35%"><span>Traffic Sources<em>visitor origins — direct, referral domains and social</em></span></div>
+    <div class="slabel" style="--sl:75%"><span>Engagement Metrics<em>scroll depth and average time on page per URL</em></span></div>
+  </div>
+  <figcaption>Fig 14.2 — Top Pages and Traffic Sources showing where visitors come from and what they view</figcaption>
+</figure>
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/analytics/analytics3.png" alt="Event Breakdown and Most Visited Pages" />
+    <div class="slabel" style="--sl:10%"><span>Event Breakdown<em>page views, exits, session starts and ends with unique user counts</em></span></div>
+    <div class="slabel" style="--sl:65%"><span>Most Visited Pages<em>ranked overview of top URLs by total views and visitor count</em></span></div>
+  </div>
+  <figcaption>Fig 14.3 — Event Breakdown and Most Visited Pages overview</figcaption>
+</figure>
+
 The analytics dashboard captures and displays event-based data including:
 - Submission volume over time (contacts, appointments, inquiries, quotes, applications)
 - Status distribution charts
@@ -757,6 +1199,89 @@ The analytics dashboard captures and displays event-based data including:
 **Navigate to:** `/dashboard/surveys`
 
 The Survey system is **automatically triggered** when an appointment is marked as **Completed**. The client receives an email with a personalized survey link.
+
+### Step 1 — Survey Email Sent to Client
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/surveys/survey-email.png" alt="Survey Invitation Email" />
+    <div class="slabel" style="--sl:10%"><span>Email Subject<em>sent automatically when appointment is marked Completed</em></span></div>
+    <div class="slabel" style="--sl:50%"><span>Take Survey Button<em>click to open the personalised survey form</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Expiry Notice<em>link expires after 30 days</em></span></div>
+  </div>
+  <figcaption>Fig 15.1 — Survey invitation email sent to the client after appointment is completed</figcaption>
+</figure>
+
+### Step 2 — Client Fills in the Survey Form
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/surveys/survey-form-email.png" alt="Survey Form — Step 1" />
+    <div class="slabel" style="--sl:8%"><span>Page Header<em>BS Realty branding and Customer Experience Survey label</em></span></div>
+    <div class="slabel" style="--sl:30%"><span>Form Banner<em>"Share Your Experience" heading and survey description</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Step Progress<em>multi-step indicator showing current position</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Personal Details<em>pre-filled name and service type from the appointment</em></span></div>
+  </div>
+  <figcaption>Fig 15.2 — Survey form Step 1: client name and service type pre-filled from the appointment</figcaption>
+</figure>
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/surveys/survey-email1.png" alt="Survey Form — Rating and Feedback" />
+    <div class="slabel" style="--sl:10%"><span>Service Type<em>carried over from the appointment booking</em></span></div>
+    <div class="slabel" style="--sl:32%"><span>Star Rating<em>client rates service from 1 to 5 stars</em></span></div>
+    <div class="slabel" style="--sl:60%"><span>Feedback Field<em>written comments — up to 500 characters</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Submit Feedback<em>click to send the survey response</em></span></div>
+  </div>
+  <figcaption>Fig 15.3 — Survey form: star rating, written feedback and Submit Feedback button</figcaption>
+</figure>
+
+### Step 3 — Submission Confirmation
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/surveys/sucess-surveyform.png" alt="Survey Submitted Successfully" />
+    <div class="slabel" style="--sl:12%"><span>Form Banner<em>survey page header remains visible after submission</em></span></div>
+    <div class="slabel" style="--sl:52%"><span>Success Confirmation<em>green checkmark and "Thank You!" message</em></span></div>
+    <div class="slabel" style="--sl:88%"><span>Privacy Notice<em>confirms responses are confidential and used only for improvement</em></span></div>
+  </div>
+  <figcaption>Fig 15.4 — Survey submitted successfully — client sees confirmation screen</figcaption>
+</figure>
+
+### Step 4 — Survey Arrives in Admin Dashboard (Quarantined)
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/surveys/survey-form-admin.png" alt="Survey Reviews Admin List — Quarantined" />
+    <div class="slabel" style="--sl:8%"><span>Filter &amp; Refresh<em>filter by status and refresh to see new submissions</em></span></div>
+    <div class="slabel" style="--sl:48%"><span>Quarantined Badge<em>new survey held for review — not yet visible to the public</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Review Link<em>click to open the survey detail and take action</em></span></div>
+  </div>
+  <figcaption>Fig 15.5 — Survey arrives in the admin dashboard with "Quarantined" status pending review</figcaption>
+</figure>
+
+### Step 5 — Admin Reviews and Publishes
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/surveys/survey-status-approve.png" alt="Survey Published" />
+    <div class="slabel" style="--sl:8%"><span>Filter &amp; Refresh<em>use status filter to view only published surveys</em></span></div>
+    <div class="slabel" style="--sl:48%"><span>Published Badge<em>survey approved and published — now visible on the website</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Review Link<em>click to re-open and edit or change the status if needed</em></span></div>
+  </div>
+  <figcaption>Fig 15.6 — Survey marked as Published — testimonial is now live on the website</figcaption>
+</figure>
+
+### Step 6 — Testimonial Appears on the Website
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/surveys/website-reflected-survey.png" alt="Client Testimonials on Website" />
+    <div class="slabel" style="--sl:20%"><span>Section Heading<em>"Client Testimonials" — visible to all website visitors</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Testimonial Cards<em>star rating, feedback quote, client name and service type</em></span></div>
+  </div>
+  <figcaption>Fig 15.7 — Published testimonials displayed in the Client Testimonials section of the website</figcaption>
+</figure>
 
 ### Survey Response Lifecycle
 
@@ -787,6 +1312,17 @@ This section is where admins configure **how the appointment booking system work
 
 ### 16.1 Appointment Categories
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/preferences/appointment-categories.png" alt="Appointment Categories Configuration" />
+    <div class="slabel" style="--sl:8%"><span>Tab Navigation<em>switch between Categories, Meeting Types, Business Hours and more</em></span></div>
+    <div class="slabel" style="--sl:27%"><span>Add New Category<em>enter name, duration (minutes) and description then click Add</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Category Rows<em>name with green active dot and duration shown per category</em></span></div>
+    <div class="slabel" style="--sl:82%"><span>Active Toggle &amp; Delete<em>enable/disable a category or remove it entirely</em></span></div>
+  </div>
+  <figcaption>Fig 16.1 — Appointment categories management with durations and active status</figcaption>
+</figure>
+
 Categories define the **type of service** a client is booking.
 
 **Each category has:**
@@ -812,6 +1348,17 @@ Categories define the **type of service** a client is booking.
 
 ### 16.2 Meeting Preferences
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/preferences/meeting-types.png" alt="Meeting Types Configuration" />
+    <div class="slabel" style="--sl:8%"><span>Page Header &amp; Actions<em>Appointment Preferences title with Export, Import and Reset buttons</em></span></div>
+    <div class="slabel" style="--sl:23%"><span>Summary Cards<em>live counts of active categories, meeting types and blocked dates</em></span></div>
+    <div class="slabel" style="--sl:50%"><span>Add Meeting Type<em>enter name, description and active status then click Add</em></span></div>
+    <div class="slabel" style="--sl:82%"><span>Meeting Type Rows<em>existing types (Hybrid, In-Person) with active toggle and delete</em></span></div>
+  </div>
+  <figcaption>Fig 16.2 — Meeting Types configuration showing existing types and the add new type form</figcaption>
+</figure>
+
 Preferences define **how a meeting is conducted** — for example, In-Person vs. Virtual vs. Phone.
 
 **Each preference has:**
@@ -828,6 +1375,17 @@ Preferences define **how a meeting is conducted** — for example, In-Person vs.
 
 ### 16.3 Business Hours
 
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/preferences/business-hours-setup.png" alt="Business Hours Configuration" />
+    <div class="slabel" style="--sl:8%"><span>Page Title<em>business hours are configured independently per meeting type</em></span></div>
+    <div class="slabel" style="--sl:22%"><span>Meeting Type Selector<em>choose which meeting type (Hybrid, In-Person) to configure</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Weekday Schedule<em>open &amp; close times with available slot count per day</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Weekend Schedule<em>Saturday and Sunday shown as Closed by default</em></span></div>
+  </div>
+  <figcaption>Fig 16.2 — Business hours setup showing daily schedules and break periods</figcaption>
+</figure>
+
 Global business hours define overall open/closed days and break times. These serve as a **secondary layer** of availability checking (on top of preference-specific hours).
 
 **For each day (Sunday through Saturday):**
@@ -838,6 +1396,17 @@ Global business hours define overall open/closed days and break times. These ser
 ---
 
 ### 16.4 Blocked Dates
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/preferences/blocked-dates.png" alt="Blocked Dates Calendar" />
+    <div class="slabel" style="--sl:8%"><span>Page Header &amp; Actions<em>Appointment Preferences title with Export, Import and Reset</em></span></div>
+    <div class="slabel" style="--sl:28%"><span>Summary Cards &amp; Tabs<em>live counts overview with Blocked Dates tab active</em></span></div>
+    <div class="slabel" style="--sl:55%"><span>Add Blocked Date<em>date picker, title, description, recurrence setting and Block button</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Blocked Date Row<em>existing entry with "Recurring yearly" badge and delete button</em></span></div>
+  </div>
+  <figcaption>Fig 16.3 — Blocked dates calendar showing holidays and unavailable periods</figcaption>
+</figure>
 
 Blocked dates prevent appointments from being booked on specific dates (e.g., holidays, company events, emergencies).
 
@@ -857,6 +1426,18 @@ Blocked dates prevent appointments from being booked on specific dates (e.g., ho
 ---
 
 ## 17. Settings Page
+
+<figure class="screenshot side-labels">
+  <div class="img-wrap">
+    <img src="assets/screenshots/preferences/global-settings.png" alt="Global Settings Configuration Panel" />
+    <div class="slabel" style="--sl:6%"><span>Tab Navigation<em>Global Settings tab active — switch to other preference sections here</em></span></div>
+    <div class="slabel" style="--sl:18%"><span>Page Header<em>Global Settings title and Save Settings button</em></span></div>
+    <div class="slabel" style="--sl:35%"><span>Business Timezone<em>all appointment slots and hours are based on this timezone</em></span></div>
+    <div class="slabel" style="--sl:62%"><span>Booking Rules<em>minimum advance hours, buffer time, max advance days and slot duration</em></span></div>
+    <div class="slabel" style="--sl:85%"><span>Booking Toggles<em>allow same day and weekend booking on/off</em></span></div>
+  </div>
+  <figcaption>Fig 17.1 — Global settings interface with tabbed navigation and configuration options</figcaption>
+</figure>
 
 **Navigate to:** `/dashboard/settings`
 

@@ -764,6 +764,85 @@
       margin-top: 1px;
     }
 
+    /* ─── Side-label arrow annotations ─────────────────── */
+    /*
+      Usage:
+      <figure class="screenshot side-labels">
+        <div class="img-wrap">
+          <img src="..." />
+          <div class="slabel" style="--sl:14%">Full Name</div>
+          <div class="slabel" style="--sl:28%">Email Address</div>
+        </div>
+        <figcaption>...</figcaption>
+      </figure>
+      --sl = vertical % position on the image the label aligns to
+    */
+
+    figure.screenshot.side-labels { overflow: visible; }
+    figure.screenshot.side-labels .img-wrap { overflow: visible; }
+
+    .slabel {
+      position: absolute;
+      left: calc(100% + 2px);
+      top: var(--sl, 50%);
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+
+    /* the horizontal line */
+    .slabel::before {
+      content: '';
+      display: block;
+      width: 36px;
+      height: 2px;
+      background: #38bdf8;
+      flex-shrink: 0;
+      margin-right: 7px;
+      position: relative;
+    }
+
+    /* left-pointing arrowhead at the start of the line */
+    .slabel::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-right: 6px solid #38bdf8;
+    }
+
+    .slabel span {
+      font-family: var(--font-sans);
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #0ea5e9;
+      background: var(--bg-card);
+      padding: 2px 0;
+      line-height: 1.4;
+    }
+
+    .slabel span em {
+      display: block;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    [data-theme="dark"] .slabel span { color: #38bdf8; }
+
+    /* push the figure left so labels have room on the right */
+    #content figure.screenshot.side-labels {
+      margin-right: 210px;
+    }
+
     /* ─── Loading state ─────────────────────────────────── */
     #loading {
       display: flex;
